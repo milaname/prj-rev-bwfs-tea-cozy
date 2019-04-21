@@ -1,0 +1,133 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+/* Header */
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+  color: seashell;
+}
+
+/* General Content Information */
+.content {
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+/* First Section */
+.bigimage {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.image-content {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  position: absolute;
+}
+
+/*Second Section*/
+.tea-block {
+  display: inline-flex;
+  width: 1000px;
+}
+
+.three-teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.three-teas img  {
+  width: 300px;
+  height: 200px;
+  padding: 10px 10px;
+}
+
+/*Third Section*/
+.locations-title h2 {
+  text-align: center;
+}
+
+.locations-title {
+  width: 1200px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height:500px;
+  margin: auto;
+}
+
+.boxes{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1, .box2, .box3 {
+  background-color: black;
+  padding: 10px 10px;
+  opacity: 1;
+  width: 300px;
+  height: 275px;
+  line-height: 50px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  line-height: 50px;
+  flex-direction: column;
+  height: 200px;
+}
+
+.copyright {
+  padding-left: 20px;
+  padding-top: 100px;
+  font-size: 20px;
+  text-align: left;
+}
